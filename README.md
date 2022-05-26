@@ -1,4 +1,4 @@
-# Alternate Contacts Manager 
+# AWS Organizations Alternate Contacts Manager 
 
 ### Programmatically manage alternate contacts in member accounts of an AWS Organizations 
 
