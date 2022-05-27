@@ -21,13 +21,13 @@ Reference: [Programmatically managing alternate contacts on member accounts with
 
    1. For the first time, we will run the following command to download all dependencies:
 
-            wget https://raw.githubusercontent.com/aws-samples/aws-organizations-alternate-contact-manager/main/deploy.sh
-            chmod +x deploy.sh
-            ./deploy.sh
+          wget https://raw.githubusercontent.com/aws-samples/aws-organizations-alternate-contact-manager/main/deploy.sh
+          chmod +x deploy.sh
+          ./deploy.sh
 
     2. For the next times we can just run: 
 
-            python3 script.py
+           python3 script.py
 
 3. After running the above commands in CloudShell, the first step is to choose one of the 3 action options.
 
