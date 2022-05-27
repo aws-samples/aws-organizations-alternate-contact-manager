@@ -163,8 +163,8 @@ def main():
     bold = '\033[1m'
     italic = '\033[0;3m'
     regular = '\033[0;0m'
-    print(bold + '\nAlternate Contacts Manager')
-    print(italic + 'Solution developed for batch management of alternate contacts. For more information, visit: https://github.com/aws-samples/alternate-contact-manager\n\n' + regular)
+    print(bold + '\nAWS Organizations Alternate Contact Manager')
+    print(italic + 'Solution developed for batch management of alternate contacts. For more information, visit: https://github.com/aws-samples/aws-organizations-alternate-contact-manager\n\n' + regular)
 
     options_0 = ['List', 'Update', 'Delete']
     terminal_menu_0 = TerminalMenu(options_0)
