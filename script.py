@@ -13,8 +13,19 @@ from pprint import pprint
 
 def list_accounts_func():
     list_of_accounts_id = []
-    list_of_accounts = boto3.client(
-        'organizations').list_accounts()['Accounts']
+    try:
+        list_accounts = boto3.client(
+            'organizations').list_accounts()
+        list_of_accounts = list_accounts['Accounts']
+        while 'NextToken' in list_accounts:
+            print('tem next token')
+            list_accounts = boto3.client('organizations').list_accounts(
+                NextToken=list_accounts['NextToken'])
+            list_of_accounts += list_accounts['Accounts']
+    except ClientError as e:
+        print('\n Could not list accounts... Error: ' + str(e))
+        logging.error(e)
+        exit()
     for account in list_of_accounts:
         list_of_accounts_id.append(str(account["Id"]))
     return list_of_accounts_id
