@@ -4,7 +4,7 @@
 
 In this repository, we share code for batch management of alternate contacts from your AWS accounts in an [AWS Organizations](https://aws.amazon.com/organizations/). [Here](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/manage-account-payment.html#manage-account-payment-alternate-contacts) are some use cases and the importance of always keeping your Alternate Contacts data up to date.
 
-Reference: [Programmatically managing alternate contacts on member accounts with AWS Organizations](https://aws.amazon.com/blogs/mt/programmatically-managing-alternate-contacts-on-member-accounts-with-aws-organizations/)
+Reference: [Programmatically managing alternate contacts on member accounts with AWS Organizations](https://aws.amazon.com/blogs/mt/programmatically-managing-alternate-contacts-on-member-accounts-with-aws-organizations/).
 
 ### [Requirements](https://docs.aws.amazon.com/accounts/latest/reference/manage-acct-update-contact.html#update-alternate-contact-requirement)
 
